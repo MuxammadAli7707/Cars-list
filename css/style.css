@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cars-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 129px;
+}
+
+.card-list-first {
+    width: 305px;
+    height: 500px;
+    background-color: #e28625;
+    border-radius: 8px;
+    padding: 48px;
+    color: #fff;
+}
+.card-list-first:hover {
+    background-color:#4b0082;
+    transition: all 1s ease;
+}
+
+.card-list-second {
+    width: 305px;
+    height: 500px;
+    background-color:#006971;
+    border-radius: 8px;
+    padding: 48px;
+    color: #fff;
+}
+.card-list-second:hover {
+    background-color: #778899;
+    transition: all 1s ease;
+}
+
+.card-list-third {
+    width: 305px;
+    height: 500px;
+    background-color:#004140;
+    border-radius: 8px;
+    padding: 48px;
+    color: #fff;
+}
+.card-list-third:hover {
+    background-color: #0000ff;
+    transition: all 1s ease;
+}
+
+.list-heading {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    width: 101px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.list-text {
+    font-size: 15px;
+    line-height: 25px;
+    width: 212px;
+    opacity: 0.75;
+    padding-bottom: 83px;
+}
+
+.list-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    width: 146px;
+    height: 48px;
+    font-size: 14px;
+    color: #e28625;
+    text-align: center;
+    padding: 12px 32px;
+}
+.list-link:hover {
+    background-color: #000;
+}
