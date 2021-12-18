@@ -57,7 +57,7 @@ body {
     color: #fff;
 }
 .card-list-third:hover {
-    background-color: #0000ff;
+    background-color: #0041405d;
     transition: all 1s ease;
 }
 
@@ -90,5 +90,5 @@ body {
     padding: 12px 32px;
 }
 .list-link:hover {
-    background-color: #000;
+     background-color: #000;
 }
